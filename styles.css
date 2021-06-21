@@ -190,22 +190,11 @@ margin: 70px 0;
 /* =========================================================== */
 
 
-footer{
+/* footer{
   background-color: #0d122b;
   color:silver;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* flex-direction: column;
-  align-items:  center; */
-
-  /* display: flex; */
   padding: 70px 150px;
-  /* justify-content: space-between; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-
   text-align: center;
-
 }
 
 footer .logo{
@@ -214,7 +203,6 @@ footer .logo{
 margin-right: auto;
 }
 
-/* https://stackoverflow.com/a/17129908/6030118 */
 footer ul{
   padding: 0;
 }
@@ -232,4 +220,46 @@ footer hr{
 
 footer h5{
   font-size: 16px;
+} */
+
+
+
+/* ============================================================== */
+
+footer{
+  background-color: #0d122b;
+  padding: 50px 0;
+  color:silver;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
+
+footer ul{
+  padding: 0;
+}
+
+footer li{
+  display: inline-block;
+  margin: 30px 20px;
+}
+
+footer hr{
+  width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
