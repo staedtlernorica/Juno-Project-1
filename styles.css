@@ -1,0 +1,235 @@
+body{
+  margin: 0;
+}
+
+header {
+  background-image: url('assets/hero.jpg');
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 99.35vw;
+
+
+}
+
+
+.top-bar{
+  display: flex;
+  padding: 40px 150px;
+  justify-content: space-between;
+}
+
+.logo, .top-bar ul{
+  display: flex;
+}
+
+.logo{
+  width: 75px;
+}
+
+.top-bar  li{
+  display: inline-block;
+  margin: 0 20px;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  margin: 15% auto;
+  color: white;
+}
+
+/* ========================================================== */
+
+.about{
+  /* height:80vh; */
+  padding: 100px 150px;
+  display: flex;
+  /* background-color: blue; */
+  justify-content: space-around;
+}
+
+.crop-img{
+  height: 600px;
+  width: 560px;
+  background-image: url('assets/image1.jpg');
+  background-position: center;
+  float: left;
+
+
+}
+
+.about-text{
+  box-sizing: border-box;
+
+  height: 600px;
+  width: 660px;
+  padding: 50px 50px;
+
+}
+
+.about-text h2{
+  font-size: 50px;
+}
+
+.about-text p{
+  font-size: 20px;
+  margin: 40px 0;
+}
+
+.about-text button{
+  background-color: orange; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 60px;
+  text-align: center;
+  font-size: 16px;
+
+
+}
+
+.about-text button:hover{
+    background-color: salmon;
+}
+/* ============================================================ */
+
+.dest{
+  height: 600px;
+  background-color: red;
+  background-image: url('assets/image2.jpg');
+    background-position: center;
+  padding: auto auto;
+  display: flex;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+}
+
+.dest h2{
+  font-size: 100px;
+  margin: 10px;
+}
+
+.dest h3{
+  font-size: 20px;
+}
+/* ============================================================ */
+.latest{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 50px 0 200px 0;
+}
+
+.latest h2{
+font-size: 60px;
+text-align: center;
+margin: 70px 0;
+/* background-color: red; */
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  height: 650px;
+  width: 480px;
+  background-color: salmon;
+  display: flex;
+  margin: 0 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card h3, h4{
+  margin: 0 0;
+}
+
+.card h3{
+  background-color: rgba(255,255,255,0.8);
+  font-size: 40px;
+  padding: 30px 30px 0 30px;
+}
+
+.card h4{
+  background-color: rgba(255,255,255,0.8);
+  font-size: 20px;
+  padding: 15px 30px 30px 30px;
+}
+
+.card-1{
+  background-image: url('assets/image3.jpg');
+  background-position: bottom center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+
+}
+
+.card-2{
+  background-image: url('assets/image4.jpg');
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.card-3{
+  background-image: url('assets/image5.jpg');
+  background-position: bottom center;
+  background-size: cover;
+}
+
+
+
+/* =========================================================== */
+
+
+footer{
+  background-color: #0d122b;
+  color:silver;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-direction: column;
+  align-items:  center; */
+
+  /* display: flex; */
+  padding: 70px 150px;
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+
+  text-align: center;
+
+}
+
+footer .logo{
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+}
+
+/* https://stackoverflow.com/a/17129908/6030118 */
+footer ul{
+  padding: 0;
+}
+
+footer li{
+  display: inline-block;
+  list-style: none;
+  margin: 30px 20px;
+  font-size: 25px;
+}
+
+footer hr{
+  width: 70%;
+}
+
+footer h5{
+  font-size: 16px;
+}
