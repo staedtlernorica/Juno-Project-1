@@ -1,265 +1,201 @@
-body{
+/* ======================ONE TIME SETUP=================== */
+h1, h2, h3, nav, li, button {
+  font-family: Vidaloka;
+}
+
+p, h4, h5 {
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 70px;
+  color: #EBEFF1;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+nav {
+  font-size: 25px;
+}
+
+button {
+  font-size: 18px;
+}
+
+body {
   margin: 0;
 }
 
+.logo {
+  width: 75px;
+}
+
+ul {
+  padding: 0;
+}
+
+/* ======================HEADER=================== */
 header {
   background-image: url('assets/hero.jpg');
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   width: 99.35vw;
-
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.top-bar{
+nav {
   display: flex;
-  padding: 40px 150px;
+  width: 1400px;
+  padding: 40px 0 250px 0;
   justify-content: space-between;
 }
 
-.logo, .top-bar ul{
+nav ul {
   display: flex;
 }
 
-.logo{
-  width: 75px;
+nav li {
+  list-style: none;
+  margin: 0 30px;
+  color: #EBEFF1;
 }
 
-.top-bar  li{
-  display: inline-block;
-  margin: 0 20px;
-  color: white;
-}
-
-h1{
-  text-align: center;
-  font-size: 70px;
-  margin: 15% auto;
-  color: white;
-}
-
-/* ========================================================== */
-
-.about{
-  /* height:80vh; */
-  padding: 100px 150px;
+nav h1 {
   display: flex;
-  /* background-color: blue; */
+  align-items: center;#8D9BA0
+  justify-content: center;
+}
+
+/* ======================ABOUT=================== */
+.about {
+  padding: 100px 250px;
+  display: flex;
   justify-content: space-around;
 }
 
-.crop-img{
+.about-img {
   height: 600px;
   width: 560px;
   background-image: url('assets/image1.jpg');
   background-position: center;
   float: left;
-
-
 }
 
-.about-text{
+.about-text {
   box-sizing: border-box;
-
   height: 600px;
   width: 660px;
   padding: 50px 50px;
-
 }
 
-.about-text h2{
-  font-size: 50px;
+.about-text p {
+  margin: 30px 0 80px;
+  line-height: 25px;
 }
 
-.about-text p{
-  font-size: 20px;
-  margin: 40px 0;
-}
-
-.about-text button{
-  background-color: orange; /* Green */
+.about-text button {
+  background-color: #D45121;
   border: none;
-  color: white;
+  color: #EBEFF1;
   padding: 14px 60px;
   text-align: center;
-  font-size: 16px;
-
-
 }
 
-.about-text button:hover{
-    background-color: salmon;
-}
-/* ============================================================ */
-
-.dest{
+/* ======================DESTINATION=================== */
+.dest {
   height: 600px;
-  background-color: red;
   background-image: url('assets/image2.jpg');
-    background-position: center;
+  background-position: center;
   padding: auto auto;
-  display: flex;
   text-align: center;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  color: white;
+  color: #EBEFF1;
 }
 
-.dest h2{
+.dest h2 {
   font-size: 100px;
   margin: 10px;
 }
 
-.dest h3{
-  font-size: 20px;
-}
-/* ============================================================ */
-.latest{
+/* ======================LATEST=================== */
+.latest {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
-  margin: 50px 0 200px 0;
+  margin: 50px 0 120px 0;
+  align-items: center;
 }
 
-.latest h2{
-font-size: 60px;
-text-align: center;
-margin: 70px 0;
-/* background-color: red; */
-}
-
-.cards{
+.cards {
   display: flex;
   justify-content: center;
 }
 
-.card{
+.card {
   height: 650px;
   width: 480px;
-  background-color: salmon;
   display: flex;
-  margin: 0 20px;
+  margin: 50px 20px 0 20px;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.card h3, h4{
+.card h3, h4 {
   margin: 0 0;
+  padding: 15px 30px 10px 30px;
 }
 
-.card h3{
-  background-color: rgba(255,255,255,0.8);
-  font-size: 40px;
-  padding: 30px 30px 0 30px;
+.card-text {
+  padding: 20px 10px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-.card h4{
-  background-color: rgba(255,255,255,0.8);
-  font-size: 20px;
-  padding: 15px 30px 30px 30px;
-}
-
-.card-1{
+.card-1 {
   background-image: url('assets/image3.jpg');
   background-position: bottom center;
-  /* background-repeat: no-repeat; */
   background-size: cover;
-
 }
 
-.card-2{
+.card-2 {
   background-image: url('assets/image4.jpg');
   background-position: bottom center;
   background-size: cover;
 }
 
-.card-3{
+.card-3 {
   background-image: url('assets/image5.jpg');
   background-position: bottom center;
   background-size: cover;
 }
 
-
-
-/* =========================================================== */
-
-
-/* footer{
-  background-color: #0d122b;
-  color:silver;
-  padding: 70px 150px;
-  text-align: center;
-}
-
-footer .logo{
-  display: block;
-  margin-left: auto;
-margin-right: auto;
-}
-
-footer ul{
-  padding: 0;
-}
-
-footer li{
-  display: inline-block;
-  list-style: none;
-  margin: 30px 20px;
-  font-size: 25px;
-}
-
-footer hr{
-  width: 70%;
-}
-
-footer h5{
-  font-size: 16px;
-} */
-
-
-
-/* ============================================================== */
-
-footer{
-  background-color: #0d122b;
-  padding: 50px 0;
-  color:silver;
-
+/* ======================FOOTER=================== */
+footer {
+  background-color: #0C1D24;
+  padding: 40px 0;
+  color: #8D9BA0;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-footer ul{
-  padding: 0;
-}
-
-footer li{
+footer li {
   display: inline-block;
-  margin: 30px 20px;
+  margin: 10px 20px;
 }
 
-footer hr{
-  width: 75%;
+footer hr {
+  width: 80%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  */
