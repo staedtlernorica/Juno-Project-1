@@ -55,12 +55,12 @@ header {
 
 nav {
   display: flex;
-  width: 1400px;
-  padding: 40px 0 250px 0;
+  width: 86%;
+  padding: 40px 0 260px 0;
   justify-content: space-between;
 }
 
-nav ul {
+nav ul, .logo {
   display: flex;
 }
 
@@ -70,11 +70,7 @@ nav li {
   color: #EBEFF1;
 }
 
-nav h1 {
-  display: flex;
-  align-items: center;#8D9BA0
-  justify-content: center;
-}
+
 
 /* ======================ABOUT=================== */
 .about {
